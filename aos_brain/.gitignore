@@ -1,0 +1,32 @@
+# Runtime databases and local state
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+*.pfx
+*.crt
+*.token
+secrets.*
+
+# Large/generated artifacts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.log
+*.tmp
+.cache/
+models/
+node_modules/
+.venv/
+__pycache__/
+
+# OneDrive transient files
+~$*
+*.tmp
